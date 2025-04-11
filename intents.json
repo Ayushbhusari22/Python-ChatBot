@@ -1,0 +1,218 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "How are you", 
+        "What's up", "Good morning", "Good afternoon",
+        "Good evening", "Hi there", "Greetings",
+        "Hello there", "Hey buddy", "Nice to meet you",
+        "Hi friend", "Yo", "Sup", "Howdy"
+      ],
+      "responses": [
+        "Hello! How can I help you today? 😊",
+        "Hi there! What can I do for you? 🤖",
+        "Greetings! I'm here to assist you. 💡",
+        "Hey! Nice to see you. How can I help?",
+        "Hello! I'm excited to chat with you today! 🌟",
+        "Hi there! Ready to help with whatever you need!",
+        "Greetings, human! How may I assist you today? 🚀",
+        "Hey! So great to see you! What brings you here?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "See you later", "Goodbye", 
+        "Have a good day", "I'm leaving", "See ya",
+        "Talk to you later", "Bye bye", "Catch you later",
+        "Got to go", "I need to leave", "Farewell",
+        "Until next time", "Take care", "Peace out"
+      ],
+      "responses": [
+        "See you later! 👋",
+        "Have a wonderful day! 🌞",
+        "Goodbye! Come back soon!",
+        "Bye! Don't hesitate to return if you have more questions.",
+        "Until next time! It was great chatting with you! 🌈",
+        "Farewell! Thanks for the conversation! 🙏",
+        "Take care and see you soon! Remember I'm always here to help! ✨",
+        "Goodbye! Have an amazing rest of your day! 🌟"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", 
+        "Awesome, thanks", "Thanks for the help",
+        "Thank you so much", "I appreciate it",
+        "Thanks a ton", "Very helpful", "You're the best",
+        "Much appreciated", "That helps a lot"
+      ],
+      "responses": [
+        "Happy to help! 😊",
+        "You're welcome! 🤖",
+        "No problem at all! 💡",
+        "Glad I could assist! 👍",
+        "It's my pleasure to help! 🌟",
+        "Anytime! That's what I'm here for! 💯",
+        "You're very welcome! Need anything else? 🤗",
+        "The pleasure is all mine! Feel free to ask if you need more help! 🚀"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you", "What are you", 
+        "Tell me about yourself", "What can you do",
+        "Who made you", "Are you human", "What is your purpose",
+        "How do you work", "What are your capabilities",
+        "Tell me more about you", "How were you created"
+      ],
+      "responses": [
+        "I'm an AI chatbot created to assist you with various questions and tasks! 🤖",
+        "I'm your virtual assistant, here to help answer questions and chat with you! 💡",
+        "I'm a Python-powered chatbot created to make your life easier. How can I help? 😊",
+        "I'm a digital assistant, always ready to help with information and conversation!",
+        "I'm an AI assistant trained on patterns to help answer questions and have meaningful conversations. I'm powered by TensorFlow and NLTK! 🧠",
+        "Think of me as your digital friend, designed to help with information, conversation, and a bit of fun! I run on advanced machine learning algorithms. 💻",
+        "I'm a chatbot built with Python and TensorFlow! I can answer questions, tell jokes, and keep you company. What would you like to talk about? 🚀",
+        "I'm an artificially intelligent assistant designed to make your day better through helpful responses and friendly conversation! 🌈"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name", "Who are you called",
+        "Do you have a name", "What should I call you",
+        "Tell me your name", "Your name please",
+        "How do people call you", "What's your title"
+      ],
+      "responses": [
+        "You can call me ChatBot! 🤖",
+        "I'm known as Python Assistant! 🐍",
+        "My name is AI Helper! 💡",
+        "Call me whatever you like - I'm your friendly neighborhood chatbot! 😊",
+        "I go by TensorBot - your AI companion powered by machine learning! 🧠",
+        "My creators named me HelperAI, but my friends just call me Helper! 🤗",
+        "I'm AssistantBot, but feel free to give me a nickname if you'd like! 🌟",
+        "My name is DigiPal - your digital friend and assistant! 🚀"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help", "I need help", "Can you help me",
+        "What can you do", "How does this work",
+        "What help can you provide", "Assist me",
+        "Could you help", "I need assistance",
+        "Show me what you can do", "Instructions please"
+      ],
+      "responses": [
+        "I can answer questions, tell jokes, provide information, and more! What do you need? 😊",
+        "I'm here to help with general knowledge, fun facts, and casual conversation. Ask me anything! 💡",
+        "I can assist with information, recommendations, and even tell you a joke! What would you like? 🤖",
+        "My capabilities include answering questions, making suggestions, and chatting about various topics!",
+        "I can help with many topics including telling the time, date, jokes, general questions, and friendly conversation! Just ask away! 🌟",
+        "Need assistance? I can provide information, entertain you with jokes, chat casually, or just be a friendly digital presence! What's on your mind? 🧠",
+        "I'm programmed to help with information, answer questions, tell jokes, and engage in pleasant conversation. How can I assist you today? 💻",
+        "My skills include answering questions, providing information, telling jokes, and having friendly chats. What would you like help with? 🚀"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke", "Make me laugh",
+        "Do you know any jokes", "Say something funny",
+        "I need a laugh", "Give me a joke",
+        "Know any good jokes", "Got any jokes",
+        "Share a joke", "I'm bored, tell a joke"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything! 🤣",
+        "Parallel lines have so much in common... it's a shame they'll never meet. 😂",
+        "Why don't skeletons fight each other? They don't have the guts! 💀",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised. 🙄",
+        "What's the best thing about Switzerland? I don't know, but the flag is a big plus. 🇨🇭",
+        "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them! ➖",
+        "Why was the math book sad? Because it had too many problems! 📚",
+        "What do you call a fake noodle? An impasta! 🍝",
+        "Why did the scarecrow win an award? Because he was outstanding in his field! 🌾",
+        "I'm reading a book about anti-gravity. It's impossible to put down! 🪂",
+        "What's orange and sounds like a parrot? A carrot! 🥕",
+        "How do you organize a space party? You planet! 🪐",
+        "Why couldn't the bicycle stand up by itself? It was two tired! 🚲"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it", "Current time",
+        "Do you know the time", "Time please",
+        "Can you tell me the time", "What's the time",
+        "Got the time", "Tell me the time"
+      ],
+      "responses": [
+        "It's currently %TIME% ⏰",
+        "The time is %TIME% ⌚",
+        "Right now it's %TIME% 🕒",
+        "Let me check... it's %TIME% ⏱️",
+        "Looking at my digital clock, it's %TIME% right now! ⏰",
+        "The current time is %TIME%. Time flies when you're chatting with an AI! ⌚",
+        "It's %TIME% - thanks for asking! 🕒",
+        "According to my internal clock, it's %TIME% now! ⏱️"
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "What's today's date", "Current date",
+        "What day is it", "Date please",
+        "Can you tell me the date", "What's the date today",
+        "Tell me today's date", "What date is it"
+      ],
+      "responses": [
+        "Today is %DATE% 📅",
+        "The date is %DATE% 🗓️",
+        "It's %DATE% today 📆",
+        "Let me check... today is %DATE% 📌",
+        "According to my calendar, today is %DATE%! 📅",
+        "Today's date is %DATE%. Hope it's been a good day so far! 🗓️",
+        "It's %DATE% - have you accomplished your goals for today? 📆",
+        "The current date is %DATE%. Time sure flies, doesn't it? 📌"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather", "Weather today",
+        "Is it raining", "Will it be sunny",
+        "Weather forecast", "How's the weather",
+        "Temperature outside", "Is it hot today",
+        "Will it rain today", "Weather report"
+      ],
+      "responses": [
+        "I can't check real-time weather, but you can look it up on weather.com! ☀️🌧️",
+        "For accurate weather info, try a weather app. I'm better at jokes than meteorology! 😅",
+        "I wish I could tell you the weather! Maybe ask Alexa or Google? 🤷‍♂️",
+        "Weather predictions aren't my strong suit, but I hope it's nice where you are! 🌈",
+        "Unfortunately, I don't have access to current weather data. But I can tell you a weather joke! What does a cloud wear under its raincoat? Thunderwear! ⛈️",
+        "I don't have windows to look outside, but you can check your local weather service for accurate forecasts! 🌦️",
+        "I'm not connected to weather services, but I hope you're having beautiful weather today! ☀️",
+        "While I can't check the weather for you, maybe it's a good day regardless of what's happening outside! 🌞"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're smart", "You're helpful",
+        "I like you", "You're awesome",
+        "Good bot", "You're the best",
+        "You're so cool", "Great job",
+        "That was perfect", "You're amazing", 
+        "Well done", "You're intelligent"
+      ]
+    }
+]
+}
+  
