@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import nltk
+# import nltk
 from nltk.stem import WordNetLemmatizer
 import random
 import json
