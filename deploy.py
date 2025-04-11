@@ -10,7 +10,8 @@ from tensorflow.keras.models import load_model
 from datetime import datetime
 import time
 import base64
-nltk.data.path.append(os.path.join(os.path.dirname(__file__), 'nltk_data'))
+nltk_path = os.path.join(os.path.dirname(__file__), 'nltk_data')
+nltk.data.path.append(nltk_path)
 
 # Download NLTK data
 # nltk.download('punkt', quiet=True)
