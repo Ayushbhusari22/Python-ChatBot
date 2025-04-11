@@ -9,10 +9,12 @@ from tensorflow.keras.models import load_model
 from datetime import datetime
 import time
 import base64
+import os
+nltk.data.path.append(os.path.join(os.path.dirname(__file__), 'nltk_data'))
 
 # Download NLTK data
-nltk.download('punkt', quiet=True)
-nltk.download('wordnet', quiet=True)
+# nltk.download('punkt', quiet=True)
+# nltk.download('wordnet', quiet=True)
 
 # Initialize lemmatizer
 lemmatizer = WordNetLemmatizer()
