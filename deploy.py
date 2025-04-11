@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
-# import nltk
+import os
+import nltk
 from nltk.stem import WordNetLemmatizer
 import random
 import json
@@ -9,7 +10,6 @@ from tensorflow.keras.models import load_model
 from datetime import datetime
 import time
 import base64
-import os
 nltk.data.path.append(os.path.join(os.path.dirname(__file__), 'nltk_data'))
 
 # Download NLTK data
