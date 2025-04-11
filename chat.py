@@ -1,5 +1,5 @@
 import numpy as np
-import nltk
+import nltk_setup
 from nltk.stem import WordNetLemmatizer
 import random
 import json
@@ -14,7 +14,7 @@ classes = pickle.load(open('classes.pkl', 'rb'))
 model = load_model('chatbot_model.h5')
 
 def clean_up_sentence(sentence):
-    sentence_words = nltk.word_tokenize(sentence)
+    sentence_words = nltk_setup.word_tokenize(sentence)
     sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
     return sentence_words
 

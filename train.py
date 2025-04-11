@@ -1,5 +1,5 @@
 import numpy as np
-import nltk
+import nltk_setup
 from nltk.stem import WordNetLemmatizer
 import json
 import pickle
@@ -9,8 +9,8 @@ from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import SGD
 
 # Download NLTK data
-nltk.download('punkt')
-nltk.download('wordnet')
+nltk_setup.download('punkt')
+nltk_setup.download('wordnet')
 
 # Initialize lemmatizer
 lemmatizer = WordNetLemmatizer()
@@ -27,7 +27,7 @@ ignore_letters = ['?', '!', '.', ',']
 # Process intents
 for intent in intents['intents']:
     for pattern in intent['patterns']:
-        word_list = nltk.word_tokenize(pattern)
+        word_list = nltk_setup.word_tokenize(pattern)
         words.extend(word_list)
         documents.append((word_list, intent['tag']))
         if intent['tag'] not in classes:
